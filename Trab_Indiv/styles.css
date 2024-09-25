@@ -1,0 +1,223 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(56, 56, 56);
+}
+.topo {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #ffd000;
+    justify-content: space-between;
+}
+
+.imagem {
+    height: 100px;
+    width: 150px;
+}
+
+.texto{
+    position: center;
+    top: 40px;
+    font-size: 30px;
+}
+
+.Topo_Esq{
+    display: flex;
+
+}
+.lista{
+    position: center;
+}
+.lista ul{
+    display: flex;
+    position: center;
+    gap: 1.5rem;
+    padding-right: 0.5rem;
+}
+li{
+    list-style: none;
+}
+.logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.titulo {
+    text-align: center;
+    color: #ffd000;
+}
+
+.album {
+    width: 1200px;
+    height: 900px;
+    background-color: rgb(56, 56, 53);
+    position: relative;
+    left: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.bloco1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bloco2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(59, 28, 28);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 1px 14px 6px rgba(0,0,0,0.5);
+}
+
+.cima img{
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 2px 1px 14px 6px rgba(0,0,0,0.5);
+}
+.baixo p{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    color: azure;
+}
+
+.cima {
+    height: 70%;
+}
+.baixo a{
+    color: azure;
+    text-decoration: none;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    color: #ffd000;
+}
+
+.contentSobre{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-left: 30px;
+    gap: 15px;
+}
+.img_dev img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: start;
+}
+.conteudo_dev{
+    font-size: 32px;
+}
+
+.Newsletter{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffd000;
+}
+.conteudoNews{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    gap: 3px;
+    margin-left: 375px;
+}
+fieldset{
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 15px;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button{
+    width: 80px;
+    height: 25px;
+    border-radius: 4px;
+    background-color: rgb(255, 166, 0);
+    margin-left: 180px;
+}
+button :hover{
+    background-color: black;
+}
+
+.inputWrap{
+    display: flex;
+    flex-direction: column;
+}
+.check{
+    display: flex;
+    /* background-color: rgb(38, 0, 255); */
+    margin-bottom: 1rem;
+    gap: 3px;
+}
+hr{
+    border: 1px solid;
+}
+
+.rodape {
+    background-color: #ffd000;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.txt_rod{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 15px;
+    gap: 5px;
+}    
+.rede_social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 10px;
+}
+.rede_social img{
+    height: 30px;
+    width: 30px;
+}
+.link{
+    height: 30px;
+    width: 30px;
+}
+.insta{
+    height: 50px;
+    width: 50px;
+}
+.rede_social i{
+    color: black;
+}
